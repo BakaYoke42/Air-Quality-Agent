@@ -1,0 +1,25 @@
+# Runtime
+mcp==1.28.1
+openai==2.46.0
+python-dotenv==1.2.2
+langfuse==4.14.1
+numpy==2.4.6
+pandas==3.0.3
+# Streamlit 1.59 requires pyarrow<25; Parquet files remain format-compatible.
+pyarrow==24.0.0
+rank-bm25==0.2.2
+sentence-transformers==5.6.0
+streamlit==1.59.2
+ragas==0.4.3
+# RAGAS 0.4.3 still imports the pre-0.4 VertexAI compatibility module.
+langchain-community==0.3.31
+langchain==1.3.14
+langchain-core==1.5.0
+langchain-openai==1.4.0
+
+# Rebuilding the document corpus
+pypdf==6.14.2
+trafilatura==2.1.0
+
+# Tests
+pytest==9.1.1

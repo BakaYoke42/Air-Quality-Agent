@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.npy binary
+*.parquet binary
+*.pdf binary
+
+# Preserve downloaded source snapshots byte-for-byte and omit noisy raw diffs.
+data/corpus_raw/*.html binary

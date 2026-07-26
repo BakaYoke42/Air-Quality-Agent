@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-07-22T13:04:30.997232+00:00",
+  "input_directory": "C:\\Users\\Mega-PC\\Desktop\\air-quality-agent\\data\\corpus_raw",
+  "output_directory": "C:\\Users\\Mega-PC\\Desktop\\air-quality-agent\\data\\corpus_processed",
+  "documents": 9,
+  "baseline_chunks": 154,
+  "parent_chunks": 99,
+  "child_chunks": 480,
+  "chunking": {
+    "baseline": {
+      "words": 500,
+      "overlap": 50,
+      "purpose": "basic retrieval and pre-improvement RAGAS baseline"
+    },
+    "parent": {
+      "words": 800,
+      "overlap": 100
+    },
+    "child": {
+      "words": 200,
+      "overlap": 30
+    },
+    "purpose": "retrieve children and return unique parents"
+  },
+  "documents_by_type": {
+    "health_guideline": 1,
+    "indicator_methodology": 1,
+    "legislation": 2,
+    "methodology": 1,
+    "pollutant_assessment": 2,
+    "status_report": 1,
+    "technical_report": 1
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "embedding_model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "children_sha256": "4dc3b1b53ee0c8bd9542a8a1ddfa38244cdc7098b0d3d25a9495ab1fadc904a4",
+  "child_count": 480
+}

@@ -1,0 +1,70 @@
+{
+  "updated_at_utc": "2026-07-23T10:34:05.170719+00:00",
+  "mode": "end_to_end_agent_selected_tools",
+  "autonomous_tool_selection": true,
+  "expected_tools_are_post_run_labels": true,
+  "hyde_enabled": true,
+  "expected_questions": 10,
+  "recorded_questions": 10,
+  "successful_questions": 10,
+  "failed_questions": 0,
+  "success_rate": 1.0,
+  "status": "complete",
+  "average_latency_seconds": 19.8555,
+  "average_cost_usd": 0.0,
+  "total_cost_usd": 0.0,
+  "average_input_tokens": 22948.6,
+  "average_output_tokens": 1254.8,
+  "average_total_tokens": 24203.4,
+  "total_input_tokens": 229486,
+  "total_output_tokens": 12548,
+  "total_tokens": 242034,
+  "average_llm_calls": 5.5,
+  "average_mcp_calls": 1.4,
+  "total_executed_tool_calls": 14,
+  "tool_selection_distribution": {
+    "compare_countries": 5,
+    "find_station_extremes": 2,
+    "get_country_air_quality": 2,
+    "search_air_quality_evidence": 5
+  },
+  "tool_call_distribution": {
+    "compare_countries": 5,
+    "find_station_extremes": 2,
+    "get_country_air_quality": 2,
+    "search_air_quality_evidence": 5
+  },
+  "model_call_distribution": {
+    "critic": 10,
+    "synthesis_voice_1": 10,
+    "synthesis_voice_2": 10,
+    "synthesis_voice_3": 10,
+    "tool_selection": 10
+  },
+  "hyde_status_distribution": {
+    "generated": 5
+  },
+  "hyde_model_distribution": {
+    "mistral-medium-latest": 5
+  },
+  "hyde_total_tokens": 1379,
+  "hyde_generated_characters": 3248,
+  "hyde_error_count": 0,
+  "critic_verdict_distribution": {
+    "REVISED": 10
+  },
+  "error_distribution": {},
+  "planned_tool_set_exact_match_count": 8,
+  "planned_tool_set_exact_match_rate": 0.8,
+  "executed_tool_set_exact_match_count": 8,
+  "executed_tool_set_exact_match_rate": 0.8,
+  "tool_set_exact_match_count": 8,
+  "tool_set_exact_match_rate": 0.8,
+  "citation_present_count": 10,
+  "citation_present_rate": 1.0,
+  "citation_allowlist_valid_count": 10,
+  "citation_allowlist_valid_rate": 1.0,
+  "valid_citation_count": 10,
+  "valid_citation_rate": 1.0,
+  "cost_note": "USD cost is the configured TokenBudget estimate. With zero per-million prices it records the configured free-tier cost, not a universal provider price. Aggregates include successful runs only because failed runs do not return a final budget snapshot."
+}

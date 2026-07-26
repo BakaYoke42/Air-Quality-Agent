@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-07-23T09:37:03.403492+00:00",
+  "questions": 14,
+  "top_k": 4,
+  "hyde_enabled_for_final": false,
+  "mode": "full_ragas",
+  "required_ragas_metrics": [
+    "context_recall",
+    "context_precision",
+    "faithfulness",
+    "answer_relevancy"
+  ],
+  "comparison_control": "The same answer model, prompt, RAGAS judge, and embedding model are used for baseline and final; only retrieval changes.",
+  "baseline": {
+    "questions": 14,
+    "average_retrieval_latency_ms": 12.72,
+    "deterministic_document_metrics": {
+      "hit_at_k": 0.9286,
+      "precision_at_k": 0.3869,
+      "recall_at_k": 0.9286,
+      "mrr_at_k": 0.7024,
+      "ndcg_at_k": 0.761
+    },
+    "ragas": {
+      "context_recall": 0.7143,
+      "context_precision": 0.5952,
+      "faithfulness": 0.9107,
+      "answer_relevancy": 0.711
+    }
+  },
+  "final": {
+    "questions": 14,
+    "average_retrieval_latency_ms": 1302.56,
+    "deterministic_document_metrics": {
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.506,
+      "recall_at_k": 1.0,
+      "mrr_at_k": 0.9167,
+      "ndcg_at_k": 0.9379
+    },
+    "deterministic_parent_metrics": {
+      "hit_at_k": 0.9286,
+      "precision_at_k": 0.2321,
+      "recall_at_k": 0.9286,
+      "mrr_at_k": 0.6786,
+      "ndcg_at_k": 0.7401
+    },
+    "ragas": {
+      "context_recall": 1.0,
+      "context_precision": 0.748,
+      "faithfulness": 0.9286,
+      "answer_relevancy": 0.9663
+    }
+  }
+}
